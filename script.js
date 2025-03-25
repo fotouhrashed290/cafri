@@ -1,1 +1,213 @@
-var _0x2abcf8=_0x5643;function _0x5643(_0x20c0e8,_0x26edc4){var _0x597706=_0x5977();return _0x5643=function(_0x5643a3,_0x23b566){_0x5643a3=_0x5643a3-0x14a;var _0x136508=_0x597706[_0x5643a3];return _0x136508;},_0x5643(_0x20c0e8,_0x26edc4);}(function(_0x3f4b8c,_0x2fc30d){var _0x16b410=_0x5643,_0x4e08e3=_0x3f4b8c();while(!![]){try{var _0x4a714f=parseInt(_0x16b410(0x16f))/0x1*(-parseInt(_0x16b410(0x171))/0x2)+parseInt(_0x16b410(0x186))/0x3+-parseInt(_0x16b410(0x175))/0x4*(parseInt(_0x16b410(0x17b))/0x5)+-parseInt(_0x16b410(0x14d))/0x6+-parseInt(_0x16b410(0x188))/0x7*(parseInt(_0x16b410(0x162))/0x8)+-parseInt(_0x16b410(0x155))/0x9+parseInt(_0x16b410(0x182))/0xa;if(_0x4a714f===_0x2fc30d)break;else _0x4e08e3['push'](_0x4e08e3['shift']());}catch(_0x20875c){_0x4e08e3['push'](_0x4e08e3['shift']());}}}(_0x5977,0x7d0a1),document['addEventListener'](_0x2abcf8(0x14b),function(){}));let previousValues={};var questionPoints={'group1':0x0,'group2':0x0,'group3':0x0,'group4':0x0,'group5':0x0,'group6':0x0,'group7':0x0,'group8':0x0};function updateLayerVisibility(_0x5648d5,_0x17a869){var _0xd02d47=_0x2abcf8,_0x325fa7=parseInt(_0x5648d5);console[_0xd02d47(0x14c)](_0xd02d47(0x179)+_0x325fa7+_0xd02d47(0x153)+_0x17a869);if(previousValues[_0x17a869]!==undefined){var _0x2caf2a=parseInt(previousValues[_0x17a869]);if(_0x17a869===0x1||_0x17a869===0x2)questionPoints[_0xd02d47(0x14f)]-=_0x2caf2a;else{if(_0x17a869===0x3)questionPoints['group2']-=_0x2caf2a;else{if(_0x17a869===0x4||_0x17a869===0x5||_0x17a869===0x6||_0x17a869===0x7)questionPoints['group3']-=_0x2caf2a;else{if(_0x17a869===0x8||_0x17a869===0x9||_0x17a869===0x12||_0x17a869===0x13)questionPoints[_0xd02d47(0x157)]-=_0x2caf2a;else{if(_0x17a869===0xa||_0x17a869===0xb)questionPoints[_0xd02d47(0x172)]-=_0x2caf2a;else{if(_0x17a869===0xc||_0x17a869===0xd)questionPoints[_0xd02d47(0x16a)]-=_0x2caf2a;else{if(_0x17a869===0xe||_0x17a869===0xf||_0x17a869===0x10)questionPoints['group7']-=_0x2caf2a;else _0x17a869===0x11&&(questionPoints[_0xd02d47(0x15b)]-=_0x2caf2a);}}}}}}}if(_0x17a869===0x1||_0x17a869===0x2)questionPoints[_0xd02d47(0x14f)]+=_0x325fa7,showLayerGroup1();else{if(_0x17a869===0x3)questionPoints['group2']=_0x325fa7,showLayerGroup2();else{if(_0x17a869===0x4||_0x17a869===0x5||_0x17a869===0x6||_0x17a869===0x7)questionPoints[_0xd02d47(0x15c)]+=_0x325fa7,showLayerGroup3();else{if(_0x17a869===0x8||_0x17a869===0x9||_0x17a869===0x12||_0x17a869===0x13)questionPoints[_0xd02d47(0x157)]+=_0x325fa7,showLayerGroup4();else{if(_0x17a869===0xa||_0x17a869===0xb)questionPoints[_0xd02d47(0x172)]+=_0x325fa7,showLayerGroup5();else{if(_0x17a869===0xc||_0x17a869===0xd)questionPoints[_0xd02d47(0x16a)]+=_0x325fa7,showLayerGroup6();else{if(_0x17a869===0xe||_0x17a869===0xf||_0x17a869===0x10)questionPoints['group7']+=_0x325fa7,showLayerGroup7();else _0x17a869===0x11&&(questionPoints[_0xd02d47(0x15b)]=_0x325fa7,showLayerGroup8());}}}}}}previousValues[_0x17a869]=_0x5648d5,displayTotalPoints();}function showLayerGroup1(){var _0x43f5a6=_0x2abcf8,_0x20fd33=questionPoints['group1'];console[_0x43f5a6(0x14c)]('Group\x201\x20total\x20points:\x20'+_0x20fd33),showLayer('g1',_0x20fd33===0x5||_0x20fd33===0x6),showLayer('yy1',_0x20fd33===0x3||_0x20fd33===0x4),showLayer(_0x43f5a6(0x17c),_0x20fd33===0x1||_0x20fd33===0x2);}function showLayerGroup2(){var _0x1a962e=_0x2abcf8,_0x3f0ac9=questionPoints[_0x1a962e(0x17a)];console[_0x1a962e(0x14c)](_0x1a962e(0x170)+_0x3f0ac9),showLayer('g2',_0x3f0ac9===0x3),showLayer(_0x1a962e(0x178),_0x3f0ac9===0x2),showLayer(_0x1a962e(0x168),_0x3f0ac9===0x1);}function showLayerGroup3(){var _0x13f1e=_0x2abcf8,_0x257892=questionPoints[_0x13f1e(0x15c)];console[_0x13f1e(0x14c)](_0x13f1e(0x184)+_0x257892),showLayer('g3',_0x257892>=0x8&&_0x257892<=0xb),showLayer('yy3',_0x257892>=0x4&&_0x257892<=0x7),showLayer(_0x13f1e(0x18e),_0x257892>=0x1&&_0x257892<=0x3);}function showLayerGroup4(){var _0x5f4e87=_0x2abcf8,_0x3299e2=questionPoints['group4'];console[_0x5f4e87(0x14c)]('Group\x204\x20total\x20points:\x20'+_0x3299e2),showLayer('g4',_0x3299e2>=0xa&&_0x3299e2<=0x10),showLayer(_0x5f4e87(0x18a),_0x3299e2>=0x5&&_0x3299e2<=0x9),showLayer(_0x5f4e87(0x15d),_0x3299e2>=0x1&&_0x3299e2<=0x4);}function showLayerGroup5(){var _0x47e0b0=_0x2abcf8,_0x2f338c=questionPoints[_0x47e0b0(0x172)];console[_0x47e0b0(0x14c)](_0x47e0b0(0x17d)+_0x2f338c),showLayer('g5',_0x2f338c>=0x5&&_0x2f338c<=0x7),showLayer(_0x47e0b0(0x151),_0x2f338c===0x3||_0x2f338c===0x4),showLayer(_0x47e0b0(0x174),_0x2f338c===0x1||_0x2f338c===0x2);}function showLayerGroup6(){var _0x2e1864=_0x2abcf8,_0x3bf969=questionPoints[_0x2e1864(0x16a)];console[_0x2e1864(0x14c)](_0x2e1864(0x181)+_0x3bf969),showLayer('g6',_0x3bf969>=0x7&&_0x3bf969<=0x9),showLayer(_0x2e1864(0x16e),_0x3bf969>=0x3&&_0x3bf969<=0x6),showLayer(_0x2e1864(0x15e),_0x3bf969<=0x2);}function showLayerGroup7(){var _0x3d438c=_0x2abcf8,_0x10fb09=questionPoints[_0x3d438c(0x18c)];console[_0x3d438c(0x14c)](_0x3d438c(0x14e)+_0x10fb09),showLayer('g7',_0x10fb09===0x8||_0x10fb09===0x9||_0x10fb09===0xa),showLayer(_0x3d438c(0x160),_0x10fb09===0x5||_0x10fb09===0x6||_0x10fb09===0x7),showLayer(_0x3d438c(0x166),_0x10fb09===0x2||_0x10fb09===0x3||_0x10fb09===0x4);}function showLayerGroup8(){var _0xd8aa8a=_0x2abcf8,_0x5761be=questionPoints[_0xd8aa8a(0x15b)];console[_0xd8aa8a(0x14c)](_0xd8aa8a(0x165)+_0x5761be),showLayer('g8',_0x5761be===0x3),showLayer(_0xd8aa8a(0x18b),_0x5761be===0x2),showLayer(_0xd8aa8a(0x164),_0x5761be===0x1);}function _0x5977(){var _0x5e90c6=['.bar_58','name','yy2','updateLayerVisibility\x20called\x20with\x20points:\x20','group2','292330HZDilb','rr1','Group\x205\x20total\x20points:\x20','pointsCircle','.bar_86','keys','Group\x206\x20total\x20points:\x20','17519680WqeFHo','style','Group\x203\x20total\x20points:\x20','.bar_46','785268DQdwVR','.bar_38','45052sLYNFK','getElementById','yy4','yy8','group7','showLayer\x20called\x20with\x20layerId:\x20','rr3','addEventListener','DOMContentLoaded','log','582204BdPuZw','Group\x207\x20total\x20points:\x20','group1','.bar_76','yy5','find',',\x20questionNumber:\x20','value','351459yVnqYE','.bar_28','group4','forEach','visible','querySelectorAll','group8','group3','rr4','rr6','visibility','yy7','change','688fDYJlV','hidden','rr8','Group\x208\x20total\x20points:\x20','rr7','select[name=\x22question','rr2','.bar_50','group6','querySelector','select','.bar_68','yy6','25962vCqPdl','Group\x202\x20total\x20points:\x20','4vEKxWH','group5','.bar_100','rr5','52xdbALU'];_0x5977=function(){return _0x5e90c6;};return _0x5977();}function showLayer(_0x1f0a21,_0x34595d){var _0x266333=_0x2abcf8;console[_0x266333(0x14c)](_0x266333(0x18d)+_0x1f0a21+',\x20condition:\x20'+_0x34595d);var _0x286a9c=document[_0x266333(0x16b)]('.'+_0x1f0a21);_0x286a9c&&(_0x286a9c[_0x266333(0x183)][_0x266333(0x15f)]=_0x34595d?_0x266333(0x159):_0x266333(0x163));}function displayTotalPoints(){var _0x3b6930=_0x2abcf8;let _0x4cab4b=0x0;for(let _0x347360=0x1;_0x347360<=0x13;_0x347360++){const _0x13bd69=document[_0x3b6930(0x16b)](_0x3b6930(0x167)+_0x347360+'\x22]');_0x4cab4b+=parseInt(_0x13bd69['value']);}const _0x521aaa=_0x4cab4b/0x41*0x64;document[_0x3b6930(0x189)](_0x3b6930(0x17e))['textContent']=_0x521aaa['toFixed'](0x0),updateBarImage(_0x521aaa);}function updateBarImage(_0x5b2bf3){var _0x31489a=_0x2abcf8;const _0x262d94={0x3:_0x31489a(0x156),0x6:'.bar_30',0x9:_0x31489a(0x187),0xc:_0x31489a(0x185),0xf:_0x31489a(0x169),0x12:_0x31489a(0x176),0x15:_0x31489a(0x16d),0x17:_0x31489a(0x150),0x1a:_0x31489a(0x17f),0x1d:_0x31489a(0x173)};if(_0x5b2bf3>=0x3){let _0x2dd76f=Object[_0x31489a(0x180)](_0x262d94)[_0x31489a(0x152)](_0x1527ad=>parseInt(_0x1527ad)>_0x5b2bf3),_0xbeb73f=_0x262d94[_0x2dd76f];if(_0xbeb73f!==lastShownBar){if(lastShownBar){let _0x493502=document[_0x31489a(0x16b)](lastShownBar);_0x493502&&(_0x493502['style'][_0x31489a(0x15f)]=_0x31489a(0x163));}if(_0xbeb73f){let _0x1ec8ec=document[_0x31489a(0x16b)](_0xbeb73f);_0x1ec8ec&&(_0x1ec8ec['style'][_0x31489a(0x15f)]=_0x31489a(0x159),lastShownBar=_0xbeb73f);}}}}document[_0x2abcf8(0x15a)](_0x2abcf8(0x16c))[_0x2abcf8(0x158)](_0x432c7d=>{var _0x4334bc=_0x2abcf8;_0x432c7d[_0x4334bc(0x14a)](_0x4334bc(0x161),function(){var _0x41f424=_0x4334bc;const _0x426f3b=parseInt(this[_0x41f424(0x177)]['replace']('question',''));updateLayerVisibility(this[_0x41f424(0x154)],_0x426f3b);});});
+document.addEventListener("DOMContentLoaded", function() {
+    // Initialization code if needed
+});
+
+// Variable to keep track of the previous values for each question
+let previousValues = {};
+
+// Object to store the points for each question group
+var questionPoints = {
+    group1: 0,
+    group2: 0,
+    group3: 0,
+    group4: 0,
+    group5: 0,
+    group6: 0,
+    group7: 0,
+    group8: 0
+};
+
+function updateLayerVisibility(selectedValue, questionNumber) {
+    var points = parseInt(selectedValue);
+    console.log(`updateLayerVisibility called with points: ${points}, questionNumber: ${questionNumber}`);
+
+    // Adjust previous points from the same question
+    if (previousValues[questionNumber] !== undefined) {
+        var previousPoints = parseInt(previousValues[questionNumber]);
+        if (questionNumber === 1 || questionNumber === 2) {
+            questionPoints.group1 -= previousPoints;
+        } else if (questionNumber === 3) {
+            questionPoints.group2 -= previousPoints;
+        } else if (questionNumber === 4 || questionNumber === 5 || questionNumber === 6 || questionNumber === 7) {
+            questionPoints.group3 -= previousPoints;
+        } else if (questionNumber === 8 || questionNumber === 9|| questionNumber === 18|| questionNumber === 19) {
+            questionPoints.group4 -= previousPoints;
+        } else if (questionNumber === 10 || questionNumber === 11) {
+            questionPoints.group5 -= previousPoints;
+        } else if (questionNumber === 12 || questionNumber === 13) {
+            questionPoints.group6 -= previousPoints;
+        } else if (questionNumber === 14 || questionNumber === 15 || questionNumber === 16) {
+            questionPoints.group7 -= previousPoints;
+        } else if (questionNumber === 17) {
+            questionPoints.group8 -= previousPoints;
+        }
+    }
+
+    // Assign new points to the appropriate group based on the question number
+    if (questionNumber === 1 || questionNumber === 2) {
+        questionPoints.group1 += points;
+        showLayerGroup1();
+    } else if (questionNumber === 3) {
+        questionPoints.group2 = points;
+        showLayerGroup2();
+    } else if (questionNumber === 4 || questionNumber === 5 || questionNumber === 6 || questionNumber === 7) {
+        questionPoints.group3 += points;
+        showLayerGroup3();
+    } else if (questionNumber === 8 || questionNumber === 9|| questionNumber === 18|| questionNumber === 19) {
+        questionPoints.group4 += points;
+        showLayerGroup4();
+    } else if (questionNumber === 10 || questionNumber === 11) {
+        questionPoints.group5 += points;
+        showLayerGroup5();
+    } else if (questionNumber === 12 || questionNumber === 13) {
+        questionPoints.group6 += points;
+        showLayerGroup6();
+    } else if (questionNumber === 14 || questionNumber === 15 || questionNumber === 16) {
+        questionPoints.group7 += points;
+        showLayerGroup7();
+    } else if (questionNumber === 17) {
+        questionPoints.group8 = points;
+        showLayerGroup8();
+    }
+
+    // Save the current value as the previous value for next change
+    previousValues[questionNumber] = selectedValue;
+
+    // Update the total points display
+    displayTotalPoints();
+}
+
+function showLayerGroup1() {
+    var totalPoints = questionPoints.group1;
+    console.log(`Group 1 total points: ${totalPoints}`);
+    showLayer('g1', totalPoints === 5 || totalPoints === 6);
+    showLayer('yy1', totalPoints === 3 || totalPoints === 4);
+    showLayer('rr1', totalPoints === 1 || totalPoints === 2);
+}
+
+function showLayerGroup2() {
+    var totalPoints = questionPoints.group2;
+    console.log(`Group 2 total points: ${totalPoints}`);
+    showLayer('g2', totalPoints === 3);
+    showLayer('yy2', totalPoints === 2);
+    showLayer('rr2', totalPoints === 1);
+}
+
+function showLayerGroup3() {
+    var totalPoints = questionPoints.group3;
+    console.log(`Group 3 total points: ${totalPoints}`);
+    showLayer('g3', totalPoints >= 8 && totalPoints <= 11);
+    showLayer('yy3', totalPoints >= 4 && totalPoints <= 7);
+    showLayer('rr3', totalPoints >= 1 && totalPoints <= 3);
+}
+
+function showLayerGroup4() {
+    var totalPoints = questionPoints.group4;
+    console.log(`Group 4 total points: ${totalPoints}`);
+    showLayer('g4', totalPoints >= 10 && totalPoints <= 16);
+    showLayer('yy4', totalPoints >=5  && totalPoints <= 9);
+    showLayer('rr4', totalPoints >= 1 && totalPoints <= 4);
+}
+
+function showLayerGroup5() {
+    var totalPoints = questionPoints.group5;
+    console.log(`Group 5 total points: ${totalPoints}`);
+    showLayer('g5', totalPoints >= 5 && totalPoints <= 7);
+    showLayer('yy5', totalPoints === 3 || totalPoints === 4);
+    showLayer('rr5', totalPoints === 1 || totalPoints === 2);
+}
+
+function showLayerGroup6() {
+    var totalPoints = questionPoints.group6;
+    console.log(`Group 6 total points: ${totalPoints}`);
+    showLayer('g6', totalPoints >= 7 && totalPoints <= 9);
+    showLayer('yy6', totalPoints >= 3 && totalPoints <= 6);
+    showLayer('rr6', totalPoints <= 2);
+}
+
+function showLayerGroup7() {
+    var totalPoints = questionPoints.group7;
+    console.log(`Group 7 total points: ${totalPoints}`);
+    showLayer('g7', totalPoints === 8 || totalPoints === 9 || totalPoints === 10);
+    showLayer('yy7', totalPoints === 5 || totalPoints === 6 || totalPoints === 7);
+    showLayer('rr7', totalPoints === 2 || totalPoints === 3 || totalPoints === 4);
+}
+
+function showLayerGroup8() {
+    var totalPoints = questionPoints.group8;
+    console.log(`Group 8 total points: ${totalPoints}`);
+    showLayer('g8', totalPoints === 3);
+    showLayer('yy8', totalPoints === 2);
+    showLayer('rr8', totalPoints === 1);
+}
+
+function showLayer(layerId, condition) {
+    console.log(`showLayer called with layerId: ${layerId}, condition: ${condition}`);
+    var layer = document.querySelector('.' + layerId);
+    if (layer) {
+        layer.style.visibility = condition ? 'visible' : 'hidden';
+    }
+}
+
+// Calculate and display the total points
+function displayTotalPoints() {
+    let totalPoints = 0;
+    for (let i = 1; i <= 19; i++) {
+        const selectElement = document.querySelector(`select[name="question${i}"]`);
+        totalPoints += parseInt(selectElement.value);
+    }
+    // Divide the total points by 50 and multiply by 100
+    const normalizedPoints = (totalPoints / 65) * 100;
+    document.getElementById('pointsCircle').textContent = normalizedPoints.toFixed(0);
+
+    // Update the bar image based on normalized points
+    updateBarImage(normalizedPoints);
+}
+
+function updateBarImage(points) {
+    const barMapping = {
+        3: '.bar_28',
+        6: '.bar_30',
+        9: '.bar_38',
+        12: '.bar_46',
+        15: '.bar_50',
+        18: '.bar_58',
+        21: '.bar_68',
+        23: '.bar_76',
+        26: '.bar_86',
+        29: '.bar_100'
+    };
+
+    // If the current points exceed or equal to the threshold for the next bar
+    if (points >= 3) {
+        let nextBarKey = Object.keys(barMapping).find(key => parseInt(key) > points);
+        let nextBarSelector = barMapping[nextBarKey];
+
+        // If the next bar is different from the last shown bar, hide the last shown bar
+        if (nextBarSelector !== lastShownBar) {
+            if (lastShownBar) {
+                let lastBar = document.querySelector(lastShownBar);
+                if (lastBar) {
+                    lastBar.style.visibility = 'hidden';
+                }
+            }
+
+            // Show the next bar
+            if (nextBarSelector) {
+                let nextBar = document.querySelector(nextBarSelector);
+                if (nextBar) {
+                    nextBar.style.visibility = 'visible';
+                    lastShownBar = nextBarSelector; // Update the last shown bar
+                }
+            }
+        }
+    }
+}
+
+// Attach event listeners to each select element to call updateLayerVisibility on change
+document.querySelectorAll('select').forEach(select => {
+    select.addEventListener('change', function() {
+        const questionNumber = parseInt(this.name.replace('question', ''));
+        updateLayerVisibility(this.value, questionNumber);
+    });
+});
